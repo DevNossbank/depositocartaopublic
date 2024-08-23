@@ -1,0 +1,51 @@
+body{
+    background-color: #29262b;
+    color: #fff;
+}
+
+.login{
+    height: 88vh;
+}
+
+.card{
+    background-color: #1f1e20;
+    color: #fff;
+}
+
+.leftPart{
+   color: #fff;
+}
+.form{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1f1e20;
+    margin-left: 30px;
+    color: white;
+    
+}
+a#link {
+    color: #02ebf9;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+button.btn.btn-primary.mt-3.btn {
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 10px 55px 10px 55px;
+}
+.form-control {
+    background-color: #8e8892 !important;
+    border-style: 1px solid #3b383d !important;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .form{
+       
+        width: 90vw;
+    }
+  }
